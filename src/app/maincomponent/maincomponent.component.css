@@ -1,0 +1,65 @@
+.mat-tab-group {
+    margin-bottom: 48px;
+  }
+  .icon-img {
+    max-width: 150px; /* Limits the maximum size */
+    width: 100%; /* Makes it responsive */
+    height: auto; /* Maintains the aspect ratio */
+}
+.iconPlustext{
+    display: flex;
+    
+}
+.heading{
+    display: flex;
+}
+.mainHeading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    padding-left: 3%;
+    font-size: 30px;
+}
+
+::ng-deep .mat-mdc-tab .mdc-tab__text-label {
+    color: var(--mat-tab-header-inactive-label-text-color);
+    display: inline-flex
+;
+    align-items: center;
+    /* font-size: 14px; */
+    font-weight: 600;
+}
+.aboutus{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+.contactHeading{
+    padding-left: 12px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.address{
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  
+
+  
+ 
+  
